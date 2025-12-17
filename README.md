@@ -1,10 +1,10 @@
 # HydroPress: Real-Time Hydrostatic Pressure Simulator
 
-HydroPress adalah simulasi teknik interaktif yang dirancang untuk memodelkan variasi tekanan hidrostatik berdasarkan kedalaman secara real-time. Dikembangkan menggunakan **C++** dan **Qt Framework**, aplikasi ini menggunakan *discrete-time simulation loop* untuk mendekati perubahan tekanan kontinu selama proses penurunan.
+HydroPress is an interactive engineering simulation designed to model hydrostatic pressure variation with depth in real time. Developed using **C++** and the **Qt Framework**, the application employs a discrete-time simulation loop to approximate continuous pressure changes during descent.
 
 ### Key Features
-* **Physics Model:** Menghitung tekanan hidrostatik menggunakan rumus $P = P_{atm} + \rho gh$.
-* **Real-Time Simulation:** Memperbarui data kedalaman, tekanan, dan status sistem pada interval waktu tetap.
-* **Status Evaluation:** Mengklasifikasikan kondisi struktur ke dalam status **SAFE**, **CRITICAL**, dan **FAILURE**.
-* **Interactive Dashboard:** Menampilkan indikator kedalaman, tekanan, dan status secara langsung.
-* **User Controls:** Menyediakan konfigurasi preset dan kustom terbatas dengan parameter yang dikunci selama simulasi berjalan.
+* **Physics Model:** Computes hydrostatic pressure using the formula $P = P_{atm} + \rho gh$.
+* **Real-Time Simulation:** Updates depth, pressure, and system status at fixed time steps.
+* **Status Evaluation:** Classifies structural condition into **SAFE**, **CRITICAL**, and **FAILURE** states.
+* **Interactive Dashboard:** Displays live depth, pressure, and status indicators.
+* **User Controls:** Provides preset and limited custom configurations with locked parameters during simulation.
